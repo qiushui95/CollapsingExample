@@ -165,7 +165,6 @@ fun MinePage() {
                 .fillMaxWidth()
                 .padding(top = topBarHeight)
                 .offset(y = collapsingOffset)
-                .background(Color.White)
                 .onSizeChanged {
                     collapsingHeight = (it.height * density.density).dp
                 }) {
